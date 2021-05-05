@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: content-box;
+}
+
+.contenedorGrande {
+    margin-top: 40px;
+    margin-left: 77px;
+    margin-right: 119px;
+    margin-bottom: 367.57px;
+}
+.contenedorGrande .notFound h5 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+}
+
+.contenedorGrande .contenedorChico {
+    display: flex;
+
+}
+.contenedorGrande .contenedorChico .image img {
+    width: 539.22px;
+    padding-top: 60px;
+}
+
+.contenedorGrande .contenedorChico .tresItems {
+    margin-left: 118.78px;
+}
+
+.contenedorGrande .contenedorChico .tresItems div h1 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.contenedorGrande .contenedorChico .tresItems div p {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 36px;
+    margin-bottom: 64px;
+}
+
+.contenedorGrande .contenedorChico .tresItems div button {
+    height: 68px;
+    width: 216px;
+    background: #333333;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #BDBDBD;
+    justify-content: center;
+
+}
+
+footer p a.dev {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+footer p a.repo {
+    font-weight: bolder;
+    color: #BDBDBD;
+}
+
+@media (max-width: 375px) {
+    
+    .contenedorGrande {
+        margin-top: 20px;
+        margin-left: 24px;
+        margin-right: 0px;
+        margin-bottom: 150px;
+    }
+
+    .contenedorGrande .contenedorChico {
+        display: flex;
+        flex-direction: column;
+        margin-top: 64px;
+    }
+
+    .contenedorGrande .contenedorChico .image img {
+        width: 286.83px;
+        margin-left: 24px;
+        padding: 0px;
+    }
+
+    .contenedorGrande .contenedorChico .tresItems {
+        margin-left: 0px;
+    }
+
+    .contenedorGrande .contenedorChico .tresItems div h1 {
+        font-size: 45px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .contenedorGrande .contenedorChico .tresItems div p {
+        margin-bottom: 66px;
+    }
+    
+    .contenedorGrande .contenedorChico .tresItems div button {
+        margin-bottom: 135px;
+    }
+    
+
+}
